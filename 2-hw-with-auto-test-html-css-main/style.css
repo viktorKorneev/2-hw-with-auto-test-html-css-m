@@ -9,10 +9,19 @@ body {}
 
 header {
     /* Стили для хедера */
+    background-color: #2965F1;
+    padding: 23px 0;
 }
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .main-section {
