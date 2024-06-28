@@ -27,7 +27,7 @@ header span {
     /* Стили для первой секции */
     background-color: #fafaff;
     padding: 60px 0;
-    min-height: 1024px;
+    min-height: 1440px;
 }
 
 .main-title {
@@ -179,8 +179,16 @@ th, td {
 
 footer {
     /* Стили для футера */
+    background-color: #A3A7FF4D;
+    padding: 20px 0;
 }
 
 .footer-link {
     /* Стили для футера */
+    color: rgb(41, 101, 241);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
 }
