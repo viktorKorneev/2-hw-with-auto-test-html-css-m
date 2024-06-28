@@ -33,12 +33,13 @@ header span {
 .main-title {
     /* Стили для заголовка в первой секции */
 color: #303030;
-font-family: Inter;
+font-family: Inter, sans-serif;
 font-size: 48px;
 font-weight: 700;
 line-height: 58px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 19px;
 }
 
 .main-text {
@@ -54,27 +55,49 @@ text-align: left;
 
 .main-image {
     /* Стили для изображения в первой секции */
+    max-width: 715px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
+    background-color: #FFF;
+    padding: 100px 0;
 }
 
 select {
     /* Стили для выпадающего списка */
+    width: 150px;
+    padding: 8px 0;
+    color: #303030;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    list-style-image: url(assets/images/ep_arrow-down.svg);
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+color: #303030;
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+text-align: left;
+margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    list-style-image: url(assets/images/solar_map-arrow-up-bold.svg);
+    padding-left: 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+
 }
 
 .label {
