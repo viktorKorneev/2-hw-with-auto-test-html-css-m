@@ -16,24 +16,40 @@ header {
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
     color: #FFF;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
 .main-section {
     /* Стили для первой секции */
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-height: 1024px;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+color: #303030;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+color: #303030;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 .main-image {
